@@ -1,4 +1,4 @@
-# projeto-gostack
+# Projeto da Semana OmniStack #9
 
 Projeto realizado utilizando NodeJS(Backend), ReactJs(Frontent) & React Native(Mobile).
 
