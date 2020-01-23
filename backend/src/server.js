@@ -12,14 +12,24 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-io.on('connection', socket => {
-    console.log('Usuario conectado', socket.id);
-});
-
+const connectUsers = {};
 
 mongoose.connect('mongodb+srv://gostack:gostack@gostack-m9tll.mongodb.net/semana09?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology :true,
+});
+
+app.use((req, res, next) => {
+    req.io = io;
+    req.connectUsers = connectUsers;
+
+    return next();
+})
+
+io.on('connection', socket => {
+    const { user_id } = socket.handshake.query;
+
+    connectUsers[user_id] = socket.id;
 });
 //GET, POST, PUT, DELETE
 
