@@ -7,11 +7,12 @@
 </h4>
 
 <div align="center">
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-  [![GitHub Issues](https://img.shields.io/github/languages/count/fcsouza/challenges-and-modules-rocketseat)]()
-  [![GitHub Pull Requests](https://img.shields.io/github/last-commit/fcsouza/challenges-and-modules-rocketseat)]()
-  [![Made By](https://img.shields.io/badge/Made%20By-Fabricio%20Cavalcante-brightgreen)]()
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+    
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/languages/count/fcsouza/challenges-and-modules-rocketseat)]()
+[![GitHub Pull Requests](https://img.shields.io/github/last-commit/fcsouza/challenges-and-modules-rocketseat)]()
+[![Made By](https://img.shields.io/badge/Made%20By-Fabricio%20Cavalcante-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
