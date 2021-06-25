@@ -20,7 +20,7 @@
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-web": "~0.11.7",
     "react-navigation": "^4.0.10",
-    "socket.io-client": "^3.0.0",
+    "socket.io-client": "^4.0.0",
     "snyk": "^1.437.3"
   },
   "devDependencies": {
