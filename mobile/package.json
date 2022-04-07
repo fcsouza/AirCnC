@@ -21,7 +21,7 @@
     "react-native-web": "~0.11.7",
     "react-navigation": "^4.0.10",
     "socket.io-client": "^4.0.0",
-    "snyk": "^1.437.3"
+    "snyk": "^1.465.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
