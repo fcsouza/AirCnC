@@ -10,18 +10,18 @@
     "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.3",
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
-    "react-native": "0.64.1",
+    "react-native": "0.68.0",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-reanimated": "~1.4.0",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-web": "~0.11.7",
     "react-navigation": "^4.0.10",
     "socket.io-client": "^4.0.0",
-    "snyk": "^1.437.3"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
